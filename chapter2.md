@@ -4,6 +4,9 @@
 
 ### CGI
 
+### Web Applications Architecture
+
+![](webapparchitecture.png)
 
 ## Web Frameworks
 
