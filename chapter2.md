@@ -14,7 +14,7 @@ Web applications are usually designed with a  [multi-layered](http://en.wikipedi
 
 The client tier runs in the client browser that renders the (generally) HTML content that is delivered by the application. The web tier is the (generally) HTTP channel that trasports HTTP messages between the client browser and the web server. The web layer is almost invisible to the web architect, since it is part of the World Wide Web foundations. The web server retrieves or constructs the HTML pages as part of the presentation logic tier. It may retrieve the HTML (static) resource directly from the server storage, or may build the HTML (dynamic) resource on-the-fly as HTTP requests arrive. The web server does not often build the dynamic resources by itself, instead it delegates building the page to a different scripting component  (e.g. a PHP module, a Java server engine, etc.) that can be programmed using any language like PHP, Java, Python, Ruby, etc. Finally, a lot of dynamic HTML page content is retrieved from external information systems or databases. The data access tier provides access to such information systems (generally databases) that are part of the data tier.
 
-
+In a web application, all its components have to collaborate to serve the client's requests. The client is normally a user browsing in the Web with an HTTP-enabled browser. But it might be also an automated agent (i.e. a computer program) that is specifically programmed to perform a task by interacting with the web server using HTTP.
 
 ## Web Frameworks
 
