@@ -18,17 +18,17 @@ In a web application, all its components have to collaborate to serve the client
 
 ## Web Frameworks
 
-### What is a framework
+In a few words, web frameworks are software frameworks used to construct web applications. In a more ellaborate fashion, web frameworks provide an abstraction to deal with the HTTP issues in the communication that occurs between client-side and server-side components of a distributed wep application. To describe it more accurately, we have to explain first what is a software framework.
 
-According to ISO/IEC/IEEE 42010,
+### What is a software framework
 
-> An architecture framework establishes a common practice for creating, interpreting, analyzing and using architecture descriptions within a particular domain of application or stakeholder community. 
-
-For software construction, according to the wikipedia,
+According to the wikipedia, 
 
 > A software framework is an abstraction in which software providing generic functionality can be selectively changed by additional user-written code, thus providing application-specific software.
 
-A software framework is a specific type of _library_ in which their components collaborate to form a reusable design for a specific type of software.
+A software framework is a specific type of _library_ in which their components collaborate to form a reusable design for a specific type of software. Such components are designed by following a specific __architecture__. According to ISO/IEC/IEEE 42010,
+
+> An architecture framework establishes a common practice for creating, interpreting, analyzing and using architecture descriptions within a particular domain of application or stakeholder community. 
 
 According to the _Gang of Four_ (Gamma et al.), the framework provides the architectural guidelines that divide the design up in abstract components (e.g. classes and interfaces). These guidelines define the responsabilities and collaborations between such components. Developers can customize the framework components by defining subclasses and composing instances.
 
