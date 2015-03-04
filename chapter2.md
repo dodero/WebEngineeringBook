@@ -80,16 +80,17 @@ The primary characteristic of Web frameworks is that they are aimed at building 
 
 The second characteristic of Web frameworks is their architectural pattern, which is usually (or is often based on) the [Model-View-Controller](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) (MVC) pattern. 
 
+There are many types of software frameworks that are ready or useful to create web applications.
 Early web MVC frameworks placed the entire model, view and controller logic on the server. These are known as server-side or thin client MVC frameworks. In this approach, the client sends either hyperlink requests or form input to the controller and then receives a complete and updated web page (or other document) from the view. As client technologies have matured, more modern client MVC frameworks have been created that allow the MVC components to execute partly on the client.
 
-There are many types of software frameworks that are ready or useful to create web applications. These can be classifed as follows:
+In general, web frameworks can be classifed as follows:
 
-* Server-side, basic: JEE JSP/Servlets, PHP, Django
-* Server-side, MVC web layer: Struts, WebWork, JSF, Tapestry, CodeIgniter, Symfony, Laravel, Django, etc.
+* Basic server-side: JEE JSP/Servlets, PHP, Django
+* MVC-based server-side: Struts, WebWork, JSF, Tapestry, CodeIgniter, Symfony, Laravel, Django, etc.
 * Persistence layer: JPA, Hibernate, iBatis, etc.
 * Client-side: GWT, Facelets, Vaadin, AngularJS, Ember.js, etc.
-* Generic: JEE, Spring, NodeJs
-* Generative: Rails, Grails, Spring ROO, Yii, etc.
+* Generic server-side containers: JEE, Spring, NodeJs
+* MVC-based generative: Rails, Grails, Spring ROO, Yii, etc.
 
 There may be other alternative classifications.
 
