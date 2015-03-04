@@ -13,7 +13,8 @@ The HTTP protocol imposes a significant limitation to build distributed applicat
 
 Web servers enable HTTP access to _web sites_, which are simple collections of _static_ documents and other resources organized as a hierarchical file system. Web servers also enable passing requests to custom software applications or scripts that provide access to _dynamic_ content. Dynamic content may come from a database, a search engine and other information systems, which can be queried according to a set of selection criteria provided by the user or programmer. The primary approach for accessing dynamic data is the [Common Gateway Interface](http://en.wikipedia.org/wiki/Common_Gateway_Interface) (CGI), which provides an interface between the Web server and programs or scripts that generate the dynamic content. Due to the limitations of the CGI, many alternatives are used instead, including template languages (e.g. PHP, ASP, JSP, etc.) and [application servers](http://en.wikipedia.org/wiki/Application_server), which are language-specific frameworks that can render HTML content by using an API ([Application Programming Interface](http://en.wikipedia.org/wiki/Application_programming_interface)), such as [Java Servlets](http://en.wikipedia.org/wiki/Java_servlet), or by means of a template engine (e.g. [JavaServer Pages](http://en.wikipedia.org/wiki/JavaServer_Pages)).
 
-### Web Applications Architecture
+
+### Web Application Architecture
 
 Web applications are a kind of distributed applications that run on top of an HTTP channel. Some of the limitations of the HTTP protocol have to be overcome by designing an appropriate  architecture and using a web framework that supports building web applications.
 
@@ -101,7 +102,7 @@ public void setOrderService(OrderService orderService) {
 
 ## Types of web frameworks
 
-The primary characteristic of Web frameworks is that they are aimed at building web applications. That means, they provide an abstraction to deal with HTTP issues to overcome HTTP limitations for programming distributed applications. That programming abstraction or API ([Application Programming Interface](http://en.wikipedia.org/wiki/Application_programming_interface)) provides a more comfortable way to use HTTP verbs (GET, POST, PUT, DELETE, etc.), manage user sessions, etc.
+The primary characteristic of Web frameworks is that they are aimed at building web applications. That means, they provide an abstraction to deal with HTTP issues to overcome HTTP limitations for programming distributed applications. That programming abstraction is an API that provides a more comfortable way to use HTTP verbs (GET, POST, PUT, DELETE, etc.), manage user sessions, etc.
 
 The second characteristic of Web frameworks is their architectural pattern, which is usually (or is often based on) the [Model-View-Controller](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) (MVC) pattern. 
 
