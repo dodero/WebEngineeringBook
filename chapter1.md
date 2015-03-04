@@ -33,7 +33,7 @@ In a web application, all its components have to collaborate to serve the client
 
 The Model-View-Controlled is defined by [Buschmann](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0471958697.html) as an architectural pattern useful for interactive systems, and defined by [Fowler](http://martinfowler.com/) as a Web Presentation pattern in its [Catalog of Patterns of Enterprise Application Architecture](http://martinfowler.com/eaaCatalog/). The MVC pattern is the most quoted (and most  misquoted) in the development of web applications.
 
-The purpose of the MVC pattern is to decouple the different logics in a multi-tiered application architecture. Typically, it is used to decouple the business components from the data access logic (that provides access to the __model__), and to decouple the presentation components (that implements the __view__)  from the business logic (i.e. the __controller__ components), as depicted in the following figure.
+The purpose of the MVC pattern is to decouple the different logics in a multi-tiered application architecture. Typically, it is used to decouple the business components from the data access logic (that provides access to the __model__), and to decouple the presentation components (that implements the __view__)  from the business logic (i.e. the __controller__ components), as depicted in the following figure. The MVC architectural pattern is actually a pair of  interleaved [Observer](http://en.wikipedia.org/wiki/Observer_pattern) patters.
 
 ![MVC pattern components](MVC_Process.png)
 
