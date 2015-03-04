@@ -1,8 +1,8 @@
 # Web construction frameworks
 
-## Web Frameworks
+## Web Application Frameworks
 
-In a few words, web frameworks are software frameworks used to construct web applications. In a more ellaborate fashion, web frameworks provide an abstraction to deal with the HTTP issues in the communication that occurs between client-side and server-side components of a distributed wep application. To describe it more accurately, we have to explain first what is a software framework.
+In a few words, web frameworks are software frameworks used to construct web applications. In a more ellaborate fashion, [web application frameworks](http://en.wikipedia.org/wiki/Web_application_framework) provide an abstraction to deal with the HTTP issues in the communication that occurs between client-side and server-side components of a distributed wep application. To describe it more accurately, we have to explain first what is a software framework.
 
 ### What is a software framework
 
