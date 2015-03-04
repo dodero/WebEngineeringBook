@@ -35,6 +35,5 @@ The Model-View-Controlled is defined by [Buschmann](http://eu.wiley.com/WileyCDA
 
 The purpose of the MVC pattern is to decouple the different logics in a multi-tiered application architecture. Typically, it is used to decouple the business components from the data access logic, and to decouple the presentation components from the business logic.
 
-![MVC pattern components](MVC-Process.svg)
-
+![MVC pattern components](MVC_Process.png)
 
