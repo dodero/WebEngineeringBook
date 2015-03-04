@@ -1,6 +1,6 @@
 # Web construction frameworks
 
-## Web applicationa and HTTP
+## Web applications and HTTP
 
 Web applications are a kind of distributed applications that run on top of an HTTP channel.
 The foundation of the World Wide Web is the HTTP protocol, an application level TCP/IP protocol that uses the client-server paradigm in which multiple clients and one server exchange request and response messages.
@@ -9,7 +9,9 @@ HTTP messages contain a body and a [header](http://en.wikipedia.org/wiki/List_of
 
 The HTTP protocol imposes a significant limitation to build distributed applications: it is a [stateless](http://en.wikipedia.org/wiki/Stateless_protocol) protocol. When a protocol supports [state](http://en.wikipedia.org/wiki/State_(computer_science)), that means that it provides for the interaction between client and server to contain a sequence of commands (often called a _session_). Many TCP/IP protocols are stateful (e-g- FTP, STMTP, etc.) but HTTP is not. An HTTP transaction consists of a single request from a client to a server, followed by a single response from the server back to the client. There is no way to maintain persistent information about a session as part of the HTTP definition. Therefore, sessions have to be provided by the external applications. A mechanism of the HTTP protocol used to define something that resembles the session concept is the use of [cookies](http://en.wikipedia.org/wiki/HTTP_cookie) to maintain state in web applications.
 
-### CGI
+### Web servers and CGI
+
+Web servers enable HTTP access to _web sites_, which are simple collections of _static_ documents and other resources organized as a hierarchical file system. Web servers also enable passing requests to custom software applications or scripts that provide access to _dynamic_ content. Dynamic content may come from a database, a search engine and other information systems, which can be queried according to a set of selection criteria provided by the user or programmer. The primary approach for accessing dynamic data is the [Common Gateway Interface](http://en.wikipedia.org/wiki/Common_Gateway_Interface) (CGI), which provides an interface between the Web server and programs or scripts that generate the dynamic content. Due to the limitations of the CGI, many alternatives are used instead, including template languages (e.g. PHP, ASP, JSP, etc.) and [application servers](http://en.wikipedia.org/wiki/Application_server), which are language-specific frameworks that can render HTML content by using an API ([Application Programming Interface](http://en.wikipedia.org/wiki/Application_programming_interface)), such as [Java Servlets](http://en.wikipedia.org/wiki/Java_servlet), or by means of a template engine (e.g. [JavaServer Pages](http://en.wikipedia.org/wiki/JavaServer_Pages)).
 
 ### Web Applications Architecture
 
