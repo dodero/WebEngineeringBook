@@ -1,12 +1,19 @@
 # Web construction frameworks
 
-## HTTP Basics
+## Web applicationa and HTTP
+
+Web applications are a kind of distributed applications that run on top of an HTTP channel.
+The foundation of the World Wide Web is the HTTP protocol, an application level TCP/IP protocol that uses the client-server paradigm in which multiple clients and one server exchange request and response messages.
+
+HTTP messages contain a body and a [header](http://en.wikipedia.org/wiki/List_of_HTTP_header_fields), which specifies, among other things, the type of content that the client accepts as a response (i.e. the _accept_ header) and the MIME type of the body of the request (i.e. the _content-type_ header).
+
+The HTTP protocol imposes a significant limitation to build distributed applications: it is a _stateless_ protocol.
 
 ### CGI
 
 ### Web Applications Architecture
 
-Web applications are a kind of distributed applications that run on top of an HTTP channel. The HTTP protocol imposes a number of limitations, many of which have to be solved through designing an appropriate  architecture and using a web framework that supports building web applications.
+Web applications are a kind of distributed applications that run on top of an HTTP channel. Some of the limitations of the HTTP protocol have to be overcome by designing an appropriate  architecture and using a web framework that supports building web applications.
 
 Web applications are usually designed with a  [multi-layered](http://en.wikipedia.org/wiki/Multilayered_architecture) or [multi-tier](http://en.wikipedia.org/wiki/Multitier_architecture) architecture, according to one of [Buschmann](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0471958697.html)'s architectural patterns. The three-tier architecture defines the logic of a web app being part of either the presentation tier, the application (or business logic) tier, or the data tier. Each application component has to be deployed in a logical node that runs its software. Thus, we can differentiate between (1) the data tier and the data access tier, and (2) the client tier, the web tier and the presentation logic tier. The following picture describes the primary architectural components of a typical web application and maps each component to the main tiers.
 
