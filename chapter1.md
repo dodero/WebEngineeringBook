@@ -40,8 +40,9 @@ The purpose of the MVC pattern is to decouple the different logics in a multi-ti
 There are many alternatives to the basic MVC architecture (e.g. [Hierarchical MVC](http://en.wikipedia.org/wiki/Hierarchical_model%E2%80%93view%E2%80%93controller), [Model–View–Adapter](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93adapter), [Model–View–Presenter](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter), [Model- View-ViewModel](http://en.wikipedia.org/wiki/Model_View_ViewModel), and [Presentation–Abstraction–Control](http://en.wikipedia.org/wiki/Presentation%E2%80%93abstraction%E2%80%93control)). There is an fundamental feature underlying to all of them: they can be either _active_ of _passive_ versions of the MVC model.
 
 The model notifies its associated views and controllers when there has been a change in its state. This notification allows the views to produce updated output, and the controllers to change the available set of commands.
-![](mvc-activo.png)
+![MVC active model](mvc-activo.png)
+
 In some cases an MVC implementation might be passive so that other components must poll the model for updates rather than being notified.
-![](mvc-pasivo.png)
+![MVC passive model](mvc-pasivo.png)
 
 
