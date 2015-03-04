@@ -7,7 +7,7 @@ The foundation of the World Wide Web is the HTTP protocol, an application level 
 
 HTTP messages contain a body and a [header](http://en.wikipedia.org/wiki/List_of_HTTP_header_fields), which specifies, among other things, the type of content that the client accepts as a response (i.e. the _accept_ header) and the MIME type of the body of the request (i.e. the _content-type_ header).
 
-The HTTP protocol imposes a significant limitation to build distributed applications: it is a _stateless_ protocol. When a protocol supports _state_, that means that it provides for the interaction between client and server to contain a sequence of commands (often called a _session_). Many TCP/IP protocols are stateful (e-g- FTP, STMTP, etc.) but HTTP is not. An HTTP transaction consists of a single request from a client to a server, followed by a single response from the server back to the client.
+The HTTP protocol imposes a significant limitation to build distributed applications: it is a _stateless_ protocol. When a protocol supports _state_, that means that it provides for the interaction between client and server to contain a sequence of commands (often called a _session_). Many TCP/IP protocols are stateful (e-g- FTP, STMTP, etc.) but HTTP is not. An HTTP transaction consists of a single request from a client to a server, followed by a single response from the server back to the client. There is no way to maintain persistent information about a session as part of the HTTP definition. Therefore, sessions have to be provided by the external applications. A mechanism of the HTTP protocol used to define something that resembles the session concept is the use of [cookies](http://en.wikipedia.org/wiki/HTTP_cookie) to maintain state in web applications.
 
 ### CGI
 
