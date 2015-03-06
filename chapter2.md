@@ -131,15 +131,29 @@ Benchmarks:
 
 [![Web framework benchmarks](techempower.png)](http://www.techempower.com/benchmarks/)
 
-## Language-specific frameworks
+## Platform-specific frameworks
 
 ### PHP frameworks
 
-### Java frameworks
+* CodeIgniter: [Tutorial](http://tutorialcodeigniter.com/)
+ 
+* Symfony: [Tutorial](http://symfony.com/doc/current/quick_tour/the_big_picture.html)
+
+* Laravel: [Tutorial](http://laravel.com/docs/4.2/quick)
+
+* Yii: [Screencasts](http://www.yiiframework.com/screencasts/)
 
 ### Ruby frameworks
 
+* Ruby on Rails:
+
 ### Python frameworks
+
+* Django:
+
+### Java frameworks
+
+* Grails:
 
 
 
