@@ -145,15 +145,17 @@ Benchmarks:
 
 ### Ruby frameworks
 
-* Ruby on Rails:
+* Ruby on Rails: [Getting started](http://guides.rubyonrails.org/getting_started.html)
+
+* Sinatra+Padrino: [Getting Started](http://www.padrinorb.com/guides/getting-started), [Blog tutorial](http://www.padrinorb.com/guides/blog-tutorial) 
 
 ### Python frameworks
 
-* Django:
+* Django: [Tutorial](https://docs.djangoproject.com/en/1.7/intro/tutorial01/)
 
 ### Java frameworks
 
-* Grails:
+* Grails: [Learning resources](https://grails.org/learn)
 
 
 
