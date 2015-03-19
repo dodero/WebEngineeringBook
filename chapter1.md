@@ -9,7 +9,7 @@ HTTP messages contain a body and a [header](http://en.wikipedia.org/wiki/List_of
 
 The HTTP protocol imposes a significant limitation to build distributed applications: it is a [stateless](http://en.wikipedia.org/wiki/Stateless_protocol) protocol. When a protocol supports [state](http://en.wikipedia.org/wiki/State_(computer_science)), that means that it provides for the interaction between client and server to contain a sequence of commands (often called a _session_). Many TCP/IP protocols are stateful (e-g- FTP, STMTP, etc.) but HTTP is not. An HTTP transaction consists of a single request from a client to a server, followed by a single response from the server back to the client. There is no way to maintain persistent information about a session as part of the HTTP definition. Therefore, sessions have to be provided by the application that uses the HTTP protocol.
 
-An available mechanism of the HTTP protocol used to manage sessions is the use of  [cookies](http://en.wikipedia.org/wiki/HTTP_cookie) to maintain state in web applications. If cookies are not allowed by the browser, there are alternative techniques to manage sessions in HTTP, such as [URL rewriting](http://stackoverflow.com/questions/1740860/http-session-tracking) and using hidden fields in forms.
+An available mechanism of the HTTP protocol to manage sessions is the use of  [cookies](http://en.wikipedia.org/wiki/HTTP_cookie) to maintain state in web applications. If cookies are not allowed by the browser, there are alternative techniques to manage sessions in HTTP, such as [URL rewriting](http://stackoverflow.com/questions/1740860/http-session-tracking) and using hidden fields in forms.
 
 ### Web servers and CGI
 
